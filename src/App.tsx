@@ -21,7 +21,14 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-const LOGO_URL = "/logo.jpg";
+import logoUrl from './assets/logo.jpg';
+import project1Url from './assets/Project 1.jpeg';
+import project2Url from './assets/Project 2.jpeg';
+import project3Url from './assets/Project 3.jpeg';
+import project5Url from './assets/Project 5.jpeg';
+import project6Url from './assets/Project 6.jpg';
+
+const LOGO_URL = logoUrl;
 // Using reliable high-quality Unsplash images for a chic interior design look
 const HERO_IMAGE = "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1920";
 
@@ -51,11 +58,11 @@ const TESTIMONIALS = [
 
 const GALLERY = [
   "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&q=80&w=800", // Hardwood floor (Keep first image)
-  "/Project 1.jpeg",
-  "/Project 2.jpeg",
-  "/Project 3.jpeg",
-  "/Project 5.jpeg",
-  "/Project 6.jpg",
+  project1Url,
+  project2Url,
+  project3Url,
+  project5Url,
+  project6Url,
 ];
 
 export default function App() {
@@ -219,7 +226,7 @@ export default function App() {
             <div className="order-2 lg:order-1 relative">
               <div className="aspect-[3/4] overflow-hidden rounded-sm">
                 <img 
-                  src="/Project 2.jpeg" 
+                  src={project2Url} 
                   alt="Vakmanschap" 
                   className="h-full w-full object-cover"
                 />
