@@ -22,11 +22,11 @@ import {
 import { useState } from "react";
 
 import logoUrl from './assets/logo.jpg';
-import project1Url from './assets/Project 1.jpeg';
-import project2Url from './assets/Project 2.jpeg';
-import project3Url from './assets/Project 3.jpeg';
-import project5Url from './assets/Project 5.jpeg';
-import project6Url from './assets/Project 6.jpg';
+import project1Url from './assets/project-1.jpeg';
+import project2Url from './assets/project-2.jpeg';
+import project3Url from './assets/project-3.jpeg';
+import project5Url from './assets/project-5.jpeg';
+import project6Url from './assets/project-6.jpg';
 
 const LOGO_URL = logoUrl;
 // Using reliable high-quality Unsplash images for a chic interior design look
@@ -150,7 +150,7 @@ export default function App() {
                 <span className="italic text-chic-accent">Projectstoffering</span>
               </h1>
               <p className="mt-8 text-lg font-light leading-relaxed text-chic-muted">
-                Chris Veldink Stoffering (CVS) is uw specialist in Noord Holland voor hoogwaardige vloeren, raamdecoratie en traprenovatie. Waar kwaliteit en esthetiek samenkomen.
+                Chris Veldink Stoffering (CVS) is uw specialist in Noord-Holland voor hoogwaardige vloeren, raamdecoratie en traprenovatie. Waar kwaliteit en esthetiek samenkomen.
               </p>
               <div className="mt-12 flex flex-col sm:flex-row items-start sm:items-center gap-6">
                 <a
